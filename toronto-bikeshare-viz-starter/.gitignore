@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+.DS_Store
+data/*
+!data/.gitkeep
+outputs/
+*.sqlite
+*.gpkg
+*.osm.pbf
+*.jar
+*.log
