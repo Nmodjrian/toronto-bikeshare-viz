@@ -44,3 +44,12 @@ Issues and pull requests are welcome. Please provide data-year information when 
 ## Licensing
 
 Source code: MIT (see `LICENSE`). City of Toronto data remain under the City's Open Government Licence and are not relicensed by this repository.
+
+## Version 0.2 — modelled cycling route maps and animations
+
+After the basic quick start, follow **[Route reconstruction instructions](docs/routing.md)**. New notebooks:
+
+- `04_glowing_cycling_maps.ipynb` — monthly two-colour overlay (cyan electric, magenta conventional)
+- `05_daily_animations.ipynb` — 30 daily two-colour PNGs, animated GIF, and bike-type activity chart
+
+These notebooks need the optional local GraphHopper routing workflow and a contemporary GBFS station snapshot; they **do not** work from ridership CSV data alone. For June 2024, the station and OSM inputs must be checked against historical versions before scientific inference. All mapped routes are hypothetical modelled OD paths, not GPS observations.
